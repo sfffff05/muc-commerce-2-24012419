@@ -1,0 +1,5 @@
+﻿规则,不合规记录数
+使用时长Tenure小于0,0
+仓库距离WarehouseToHome小于0,0
+订单数量OrderCount<=0,0
+返现CashbackAmount小于0,0

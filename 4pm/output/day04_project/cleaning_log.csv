@@ -1,0 +1,13 @@
+﻿处理步骤,处理规则,处理前记录数,处理后记录数,影响记录数
+删除完全重复记录,去除全行完全重复数据,5630,5630,0
+数值列Tenure缺失填充,中位数填充，不使用0填充,5630,5630,264
+数值列WarehouseToHome缺失填充,中位数填充，不使用0填充,5630,5630,251
+数值列HourSpendOnApp缺失填充,中位数填充，不使用0填充,5630,5630,255
+数值列OrderAmountHikeFromlastYear缺失填充,中位数填充，不使用0填充,5630,5630,265
+数值列CouponUsed缺失填充,中位数填充，不使用0填充,5630,5630,256
+数值列OrderCount缺失填充,中位数填充，不使用0填充,5630,5630,258
+数值列DaySinceLastOrder缺失填充,中位数填充，不使用0填充,5630,5630,307
+类别标准化 PreferredLoginDevice,映射规则{'Phone': 'Mobile Phone'},5630,5630,1231
+类别标准化 PreferredPaymentMode,"映射规则{'COD': 'Cash on Delivery', 'CC': 'Credit Card'}",5630,5630,638
+类别标准化 PreferedOrderCat,映射规则{'Mobile': 'Mobile Phone'},5630,5630,809
+Churn、Complain转为整数,标签转0/1整数,5630,5630,0
